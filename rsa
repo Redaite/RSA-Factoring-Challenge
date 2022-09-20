@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 from sys import argv
-
-with open(argv[1]) as d:
+with open (argv[1]) as d:
     for line in d:
         n = int(line)
         print("{:d}=".format(n), end="")
